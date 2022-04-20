@@ -105,6 +105,12 @@
 }
 @media (max-width: 1024px){}
 @media (max-width: 960px){
+    .header h1 em img {width: 50px;}
+    .header h1 strong a {font-size: 30px;}
+
+    .header .nav ul li {width: 96px;}
+    .header .nav ul li a {padding: 22px 20px;font-size: 20px;}
+    
     .exh {padding: 50px 0 50px 0;}
     
     .artlist_title {float: none; width: 100%;}
@@ -117,11 +123,7 @@
     .poster_chart .chart_cont2 > div:nth-child(3n) {display: none;}
 }
 @media (max-width: 780px){
-    .header h1 em img {width: 50px;}
-    .header h1 strong a {font-size: 30px;}
-
-    .header .nav ul li {width: 90px;}
-    .header .nav ul li a {padding: 22px 20px;font-size: 20px;}
+    
 }
 @media (max-width: 720px){
     .poster_title ul {width: 100%;}
