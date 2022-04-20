@@ -32,54 +32,15 @@
 .poster figure {}
 .poster figure img {float: left; width: 200px; height: 330px; padding: 0 10px 10px 0;}
 
-/* History */
-.history {padding: 0 20px 50px 20px;}
-.history h2 {font-weight: 700; font-size: 30px; padding: 0 0 20px 0;}
-.history h3 {font-weight: 400; font-size: 20px; padding: 10px 0 10px 0;}
-.history h3.YS001:hover {width: 100px; height: 100px; background: url(../img/art/art265.jpg);}
-
-/* 특강 */
-.video {padding: 100px 0 100px 0;}
-.video > div {position: relative;padding-bottom: 56.25%;}
-.video > div iframe {position: absolute; width: 100%; height: 100%; left: 0; right: 0;}
-.video .infor {padding: 20px;}
-.video .infor h3 {}
-.video .infor h3 span {display: block; font-size: 30px;font-weight: 700;}
-.video .infor h3 strong {font-size: 20px;font-weight: 400;}
-
-/* 컬럼 */
-.column {padding: 100px 0 100px 0;}
-.column_title {margin-bottom: 30px; width: 100%; padding: 34px; box-sizing: border-box; background: #f0f0f0;}
-.column_title ul {display:block; width: 100%; text-align: center;}
-.column_title ul li {float: left; width: 33%; text-align: center; border: 1px solid #c4c4c4;margin-right: -1px; margin-top: -1px;}
-.column_title ul li a {display: block; padding: 10px 0 10px 0; font-size: 18px; color: #666; font-weight: 700;}
-.column_title ul li.active a {background: #666; color: #fff;}
-.column_chart {}
-.column_chart .bar_title {}
-.column_chart .bar_title strong {}
-.column_chart .bar_title .bar_em1 {margin: 10px 10px 10px 30px; display: inline-block; box-sizing: border-box; padding: 5px 50px 5px 10px; width: 43.4%; background: #6095c0;}
-.column_chart .bar_title .bar_em2 {margin: 10px 10px 10px 17px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 21.3%; background: #6095c0;}
-.column_chart .bar_title .bar_em3 {margin: 10px 10px 10px 30px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 34.1%; background: #6095c0;}
-.column_chart .bar_title .bar_em4 {margin: 10px 10px 10px 30px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 57.4%; background: #6095c0;}
-.column_chart .bar_title .bar_em5 {margin: 10px 10px 10px 30px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 38.8%; background: #6095c0;}
-.column_chart .bar_title .bar_em6 {margin: 10px 10px 10px 30px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 46.2%; background: #6095c0;}
-.column_chart .bar_title .bar_em7 {margin: 10px 10px 10px 94px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 81.5%; background: #6095c0;}
-.column_chart .bar_title .bar_em8 {margin: 10px 10px 10px 94px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 15.9%; background: #6095c0;}
-.column_chart .bar_title .bar_em9 {margin: 10px 10px 10px 94px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 22.2%; background: #6095c0;}
-.column_chart .bar_title .bar_em10 {margin: 10px 10px 10px 80px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 33%; background: #6095c0;}
-.column_chart .bar_title .bar_em11 {margin: 10px 10px 10px 80px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 13.5%; background: #6095c0;}
-.column_chart .bar_title .bar_em12 {margin: 10px 10px 10px 62px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 13.1%; background: #6095c0;}
-.column_chart .bar_title .bar_em13 {margin: 10px 10px 10px 48px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 10.8%; background: #6095c0;}
-.column_chart .bar_title .bar_em14 {margin: 10px 10px 10px 94px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 11.9%; background: #6095c0;}
-.column_chart .bar_title .bar_em15 {margin: 10px 10px 10px 94px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 5.9%; background: #6095c0;}
-.column_chart > div > h2 {text-align: center; font-weight: 700; font-size: 20px; padding: 10px 0 10px 0;}
-.column_chart > div > h3 {text-align: left; font-weight: 400; font-size: 15px; padding: 10px 0 10px 0;}
-.column_chart > div > h4 {text-align: left; font-weight: 300; font-size: 15px; padding: 10px 0 10px 0;}
-.column_chart > div > a {padding: 0 20px 50px 20px;}
-.column_chart > div > a h3 {font-weight: 400; font-size: 20px; padding: 10px 0 10px 0;}
-
 /* 작품리스트 */
-.artlist {padding: 100px 0 100px 0;}
+.artlist {padding: 100px 0 100px 0; text-align: center;}
+.artlist h2 {text-align: left; font-size: 30px;font-weight: 700; margin-bottom: 10px;}
+.artlist_img {float: left; margin: 20px; width: 100%;}
+.artlist_img h3 {text-align: left; font-size: 20px; font-weight: 400;}
+.artlist_img h3 img {float: left; width: 20px; display:inline-block;}
+.artlist_img h3 img:hover {width: 200px;}
+
+/*기존작품리스트*/
 .artlist_nav {text-align: center;}
 .artlist_nav ul {position: relative; text-align: center;}
 .artlist_nav ul li {display:inline-block; text-align: center; padding: 0 10px;}
