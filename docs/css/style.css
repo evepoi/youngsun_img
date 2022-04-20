@@ -27,32 +27,10 @@
 
 /* 포스터 영역 */
 .exh {padding: 100px 0 100px 0; text-align: center;}
-.poster_title {margin-bottom: 60px;}
-.poster_title ul {overflow: hidden; width: 603px; margin: 0 auto;}
-.poster_title ul li {float: left; width: 270px; text-align: center; border: 1px solid #c4c4c4; margin-right: -1px;}
-.poster_title ul li a {display: block; padding: 15px 0; font-size: 18px; color: #666; font-weight: 700;}
-.poster_title ul li.active a {background: #666; color: #fff;}
-.poster_chart {}
-.poster_chart .chart_cont1 {}
-.poster_chart .chart_cont1 > div {display:inline-block; width: 270px; border: 1px solid #d9d9d9; margin-right: 20px;}
-.poster_chart .chart_cont1 > div:last-child {margin-right: 0;}
-.poster_chart .chart_cont1 > div > .poster {}
-.poster_chart .chart_cont1 > div > .poster img {display:block; width: 270px; height: 420px; border-bottom: 1px solid #d9d9d9;}
-.poster_chart .chart_cont1 > div > .infor {position: relative; background: #fff; padding: 25px 0;}
-.poster_chart .chart_cont1 > div > .infor h3 {color: #333; font-size: 30px; font-weight: 700; text-align: center;}
-.poster_chart .chart_cont1 > div > .infor span {position: absolute; top: 0px; left: 0; width: 70px; height: 30px; line-height: 30px; background-color: #38116a; text-align: center; color: #fff;font-size: 15px;}
-.poster_chart .chart_cont1 > div > .infor strong {}
-.poster_chart .chart_cont1 > div > .infor em {position: absolute; top: 4px; right: 30px; font-size: 15px;}
-
-.poster_chart .chart_cont2 {}
-.poster_chart .chart_cont2 > div {display:inline-block; width: 270px; border: 1px solid #d9d9d9; margin-right: 20px;}
-.poster_chart .chart_cont2 > div:last-child {margin-right: 0;}
-.poster_chart .chart_cont2 > div > .poster {}
-.poster_chart .chart_cont2 > div > .poster img {display:block; width: 270px; height: 420px; border-bottom: 1px solid #d9d9d9;}
-.poster_chart .chart_cont2 > div > .infor {position: relative; background: #fff; padding: 25px 0;}
-.poster_chart .chart_cont2 > div > .infor h3 {color: #333; font-size: 30px; font-weight: 700; text-align: center;}
-.poster_chart .chart_cont2 > div > .infor span {position: absolute; top: 0px; left: 0; width: 70px; height: 30px; line-height: 30px; background-color: #38116a; text-align: center; color: #fff;font-size: 15px;}
-.poster_chart .chart_cont2 > div > .infor strong {}
+.poster {}
+.poster h2 {text-align: left; font-size: 30px;font-weight: 700; margin-bottom: 30px;}
+.poster figure {}
+.poster figure img {float: left; width: 200px; height: 330px; padding: 0 10px 10px 0;}
 
 /* History */
 .history {padding: 0 20px 50px 20px;}
