@@ -37,7 +37,7 @@
 .artlist > div {}
 .artlist > div h2 {text-align: left;}
 .artlist > div h2 strong {font-size: 30px; font-weight: 700; margin-bottom: 10px;}
-.artlist > div > div {}
+.artlist > div > div {border-bottom: 1px solid #c4c4c4;}
 .artlist > div > div .artlist_img {float: left; margin: 20px; width: 100px;}
 .artlist > div > div .artlist_img img {float: left; width: 100px; display:block;}
 .artlist > div > div .artlist_infor {float: left;}
